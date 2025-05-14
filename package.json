@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/MaximEYakovlev/ml#readme",
   "dependencies": {
-    "@tensorflow/tfjs": "^4.22.0"
+    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-node": "^4.22.0"
   }
 }
