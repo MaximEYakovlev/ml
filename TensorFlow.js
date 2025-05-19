@@ -1,5 +1,5 @@
-// Use `tfjs-node`. Note that `tfjs` is imported indirectly by `tfjs-node`.
-const tf = require('@tensorflow/tfjs-node');
+// Use `tfjs-node-gpu`. Note that `tfjs` is imported indirectly by `tfjs-node-gpu`.
+const tf = require('@tensorflow/tfjs-node-gpu');
 
 // Define a simple model.
 const model = tf.sequential();
@@ -17,4 +17,3 @@ model.fit(xs, ys, {
     onEpochEnd: (epoch, log) => console.log(`Epoch ${epoch}: loss = ${log.loss}`)
   }
 });
-
