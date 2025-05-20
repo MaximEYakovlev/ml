@@ -1,5 +1,5 @@
-// Use `tfjs-node-gpu`. Note that `tfjs` is imported indirectly by `tfjs-node-gpu`.
-const tf = require('@tensorflow/tfjs-node-gpu');
+// Use `tfjs`.
+const tf = require('@tensorflow/tfjs');
 
 // Define a simple model.
 const model = tf.sequential();
